@@ -1,0 +1,17 @@
+# Editor linting only (Solargraph/RuboCop in Zed). `brew style` uses
+# Homebrew's own config and ignores this file.
+AllCops:
+  NewCops: enable
+  SuggestExtensions: false
+
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+Style/StringLiteralsInInterpolation:
+  EnforcedStyle: double_quotes
+Style/FrozenStringLiteralComment:
+  Enabled: false # casks don't use it
+Style/Documentation:
+  Enabled: false
+Naming/FileName:
+  Exclude:
+    - "Casks/**/*.rb" # cask files are named after their tokens (font-line-seed-sans.rb)
