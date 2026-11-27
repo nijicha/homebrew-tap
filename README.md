@@ -1,5 +1,18 @@
 # nijicha/homebrew-tap
 
+## Formulae
+
+| Formula | What |
+| --- | --- |
+| `walkie` | [Walkie engine](https://github.com/nijicha/walkie-engine): narrated videos of a code change, made by an agent. CLI and MCP server for the [walkie plugin](https://github.com/nijicha/skills/tree/main/plugins/walkie). Apple Silicon. |
+
+```sh
+brew install nijicha/tap/walkie
+walkie setup
+```
+
+## Fonts
+
 Homebrew casks for the LINE Seed fonts that [homebrew/cask](https://github.com/Homebrew/homebrew-cask) doesn't carry. `font-line-seed-jp` is already in homebrew/cask.
 
 | Cask | Font |
