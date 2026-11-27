@@ -1,8 +1,8 @@
 class Walkie < Formula
   desc "Narrated videos of a code change, made by an agent (CLI and MCP server)"
   homepage "https://github.com/nijicha/walkie-engine"
-  url "https://github.com/nijicha/walkie-engine/releases/download/v0.1.0-alpha/walkie-0.1.0-alpha.tar.gz"
-  sha256 "39a2672bff75094e53ff23157adf60c34ce7c5836c73722484cf1a4ce077b80c"
+  url "https://github.com/nijicha/walkie-engine/releases/download/v0.1.1-alpha/walkie-0.1.1-alpha.tar.gz"
+  sha256 "bdf95cef676063b3a81d79042baf4d66c8dddcecd6307a3e9d8f489478b7ed6d"
   license "MIT"
 
   depends_on arch: :arm64
