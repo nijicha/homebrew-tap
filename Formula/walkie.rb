@@ -1,8 +1,8 @@
 class Walkie < Formula
   desc "Narrated videos of a code change, made by an agent (CLI and MCP server)"
   homepage "https://github.com/nijicha/walkie-engine"
-  url "https://github.com/nijicha/walkie-engine/releases/download/v0.2.0-alpha/walkie-0.2.0-alpha.tar.gz"
-  sha256 "442a0c372707d65022b8b9866c578ad8214ea0d95d95124632415aa110e3654b"
+  url "https://github.com/nijicha/walkie-engine/releases/download/v0.2.1-alpha/walkie-0.2.1-alpha.tar.gz"
+  sha256 "cd6b228ea924be083eda00b52b990be7475cd38802045435d7a5633ab2004f29"
   license "MIT"
 
   depends_on arch: :arm64
@@ -17,7 +17,7 @@ class Walkie < Formula
 
   def caveats
     <<~EOS
-      Run once to download Chromium and the Thai voice model:
+      Run once to download Chromium and pick the voices (Thai, English):
         walkie setup
 
       Then add the Claude Code plugin:
